@@ -8,7 +8,7 @@ You'll need module ngx_http_gzip_static_module enabled in order to use this. See
 You can configure mod_deflate to use pre-compressed files instead of compressing them on the fly. See [https://httpd.apache.org/docs/2.4/mod/mod_deflate.html#precompressed].
 
 ## Changelog
-See [CHANGELOG.md]
+See [CHANGELOG.md](CHANGELOG.md)
 
 ## TODO
 * Add configuration option to enable/disable gzip generation
@@ -17,4 +17,4 @@ See [CHANGELOG.md]
 * Add support for other compression method (deflate, brotli, bzip2)?
 
 ## License
-This software falls under OSL V3.0, see [LICENSE.txt].
+This software falls under OSL V3.0, see [LICENSE.txt](LICENSE.txt)
