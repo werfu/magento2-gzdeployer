@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Deploy\Package\Package">
+        <arguments>
+            <argument name="postProcessors" xsi:type="array">
+                <item name="gzip" xsi:type="object">Werfu\GZDeployer\Package\Processor\PostProcessor\Gzip</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
